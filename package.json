@@ -1,0 +1,41 @@
+{
+  "name": "fourtwenty-tx-summary",
+  "version": "3.2.4",
+  "description": "replay a historical tx using a web3 provider as a data source",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo example.js --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "clone": "^2.0.0",
+    "concat-stream": "^1.5.1",
+    "end-of-stream": "^1.1.0",
+    "fourtwenty-query": "^2.0.2",
+    "fourtwentyjs-block": "^1.4.1",
+    "fourtwentyjs-tx": "^1.1.1",
+    "fourtwentyjs-util": "^5.0.1",
+    "fourtwentyjs-vm": "^2.6.0",
+    "through2": "^2.0.3"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {
+    "budo": "^11.6.1",
+    "json-stable-stringify": "^1.0.1",
+    "request": "^2.88.0",
+    "xhr": "^2.4.0",
+    "web3-provider-engine": "^13.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumavis/fourtwenty-tx-summary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kumavis/fourtwenty-tx-summary/issues"
+  },
+  "homepage": "https://github.com/kumavis/fourtwenty-tx-summary#readme"
+}
